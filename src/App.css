@@ -107,11 +107,11 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.786);
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.786);
   background: rgb(178,218,233);
-  background: -moz-linear-gradient(left, rgb(178,218,233) 0%, rgb(255, 255, 255) 50%, rgb(143,143,143) 100%);
-  background: -webkit-linear-gradient(left, rgb(178,218,233) 0%, rgb(255, 255, 255) 50%, rgb(143,143,143) 100%);
-  background: linear-gradient(to right, rgb(178,218,233) 0%, rgb(255, 255, 255) 50%, rgb(143,143,143) 100%);
+  background: -moz-linear-gradient(left, rgb(178,218,233) 0%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 100%);
+  background: -webkit-linear-gradient(left, rgb(178,218,233) 0%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 100%);
+  background: linear-gradient(to right, rgb(178,218,233) 0%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 100%);
 }
 
 

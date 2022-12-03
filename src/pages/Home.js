@@ -9,7 +9,7 @@ function Home() {
   const { Meta } = Card;
   const [data, setData] = useState([])
   const getNews = () => {
-    axios.get("https://newsapi.org/v2/everything?domains=wsj.com&apiKey=e937f314ff954947b479e4061975f904")
+    axios.get("https://newsapi.org/v2/everything?q=apple&from=2022-12-02&to=2022-12-02&sortBy=popularity&apiKey=e937f314ff954947b479e4061975f904")
       .then((response) => {
         setData(response.data.articles);
       })
