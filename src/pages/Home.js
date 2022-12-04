@@ -2,17 +2,18 @@ import React, { useEffect, useState } from 'react';
 import '../App.css';
 import axios from 'axios';
 import { Card } from 'antd';
-import { Button, Space } from 'antd';
+import { Button } from 'antd';
 
 function Home() {
 
   const { Meta } = Card;
   const [data, setData] = useState([])
   const getNews = () => {
-    axios.get("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=e937f314ff954947b479e4061975f904")
+    axios.get("https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=e937f314ff954947b479e4061975f904")
       .then((response) => {
         setData(response.data.articles);
       })
+      .catch(error => console.error('Error:', error))
   }
 
 
