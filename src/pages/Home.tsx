@@ -8,15 +8,15 @@ const Home: FC = () => {
   const [data, setData] = useState<Array<Object>>([]);
 
   useEffect(() => {
-    getNews();
+    fetchData();
   }, [])
 
-  const getNews = () => {
+  const fetchData = () => {
     axios.get("https://newsapi.org/v2/everything?domains=wsj.com&apiKey=e937f314ff954947b479e4061975f904")
       .then((response) => {
         setData(response.data.articles);
       })
-      .catch((error) => console.log(error))
+      .catch((error) => console.log('error', error))
       .finally(() => setLoading(false));
   }
 

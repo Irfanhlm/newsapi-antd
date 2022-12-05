@@ -1,3 +1,15 @@
+# For Information
+
+Just researched some more and found new information saying newsapi.org has changed its free service to only allow API calls locally. This explains why my app in gh-pages is no longer loading API info.
+
+# Frontend Challenge
+
+- Create a List and Detail view for article from [NewsAPI](https://newsapi.org/)
+- it should use React
+- it should use TypeScript
+- it should use [Ant Design](https://ant.design/) for styling (you can customize the UI if you are interesting with UI/UX)
+- it should be open sourced on your github repo
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
