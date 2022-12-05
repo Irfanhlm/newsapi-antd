@@ -1,3 +1,5 @@
+import React from 'react';
+
 function NotFound() {
     return (
         <div style={{ textAlign: "center" }}>
@@ -6,4 +8,4 @@ function NotFound() {
     )
 }
 
-export default NotFound
+export default NotFound;
