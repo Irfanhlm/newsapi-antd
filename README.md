@@ -8,7 +8,6 @@ Just researched some more and found new information saying newsapi.org has chang
 - it should use React
 - it should use TypeScript
 - it should use [Ant Design](https://ant.design/) for styling (you can customize the UI if you are interesting with UI/UX)
-- it should be open sourced on your github repo
 
 # Getting Started with Create React App
 
